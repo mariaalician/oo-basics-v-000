@@ -10,7 +10,7 @@ end
 
 def cobble
   binding.pry
-  self.condition = "new"
+  Shoe.condition = "new"
   self.condition
   puts "Your shoe is as good as new!"
 end
