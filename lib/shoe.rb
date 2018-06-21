@@ -1,3 +1,4 @@
+require 'pry'
 class Shoe
   
 attr_reader :brand
@@ -8,6 +9,7 @@ def initialize(brand)
 end
 
 def cobble
+  binding.pry
   puts "Your shoe is as good as new!"
 end
 end
