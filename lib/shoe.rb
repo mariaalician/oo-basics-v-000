@@ -8,6 +8,6 @@ def initialize(brand)
 end
 
 def cobble
-  shoe = shoe.new("Your shoe is as good as new!")
+  shoe = Shoe.new("Your shoe is as good as new!")
 end
 end
