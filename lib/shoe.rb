@@ -9,9 +9,8 @@ def initialize(brand)
 end
 
 def cobble
-  binding.pry
   Shoe.condition = "new"
-  self.condition
+  Shoe.condition
   puts "Your shoe is as good as new!"
 end
 end
